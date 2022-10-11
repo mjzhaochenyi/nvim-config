@@ -1,13 +1,13 @@
 " call plug manager
 call plug#begin('~/.config/nvim/plugged')
 Plug 'morhetz/gruvbox'
-Plug 'sonph/onehalf', { 'rtp': 'vim' }
 Plug 'tpope/vim-fugitive'
 Plug 'preservim/nerdtree'
 Plug 'ctrlpvim/ctrlp.vim'
 " Plug 'neoclide/coc.nvim', {'branch': 'release'}
 " Plug 'navarasu/onedark.nvim'
 " Plug 'gosukiwi/vim-atom-dark'
+" Plug 'sonph/onehalf', { 'rtp': 'vim' }
 Plug 'Chiel92/vim-autoformat'
 Plug 'easymotion/vim-easymotion'
 call plug#end()
@@ -16,9 +16,7 @@ set nocompatible
 filetype off
 filetype plugin indent on	" required
 syntax on
-" colorscheme gruvbox
-" set up onehalflight
-colorscheme onehalfdark
+colorscheme gruvbox
 set colorcolumn=80
 set background=dark
 highlight ColorColumn ctermbg=0 guibg=lightgrey
