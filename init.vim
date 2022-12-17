@@ -1,5 +1,3 @@
-set nocompatible
-filetype off
 
 call plug#begin('~/.config/nvim/plugged')
 Plug 'morhetz/gruvbox'
@@ -13,6 +11,7 @@ Plug 'easymotion/vim-easymotion'
 call plug#end()
 
 
+set nocompatible
 filetype plugin indent on	" required
 syntax on
 set colorcolumn=80
